@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    color: #ffffff; 
+    background-color: rgb(0, 12, 122);
+}
+#img{
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-left: 250px;
+}
+
+#p{
+    margin-top: 40px;
+    margin-left: 250px;
+}
+    
+
+#cont {
+    color: #ffffff;
+    background-color:  rgb(0, 12, 122); 
+    text-decoration: none;
+    font-weight: normal; 
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: 585px;
+    font-size: 8vh;
+    margin-left: 80px;
+    
+}
+
+
+#cont:link, 
+#cont:visited {
+    color: #ffffff; 
+    background-color: rgb(0, 12, 122);
+}
+
+#cont:hover, 
+#cont:active { 
+    text-decoration: underline; 
+    color: #ffffff; 
+    background-color:  rgb(0, 12, 122); 
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+    <link rel="stylesheet" href="pedido.css">
+</head>
+<body>
+    <h1 id="h1">Pedido</h1>
+
+    <section>
+        <form>
+            <div id="nada">
+                <label id="nada">Nome:</label>
+                <input type="text" id="nada" name="nome">
+            </div>
+
+            <div id="nada">
+                <label id="nada">Email:</label>
+                <input type="email" id="nada" name="email">
+            </div>
+
+            <div id="nada">
+                <label  id="nada">Telefone:</label>
+                <input type="number" id="nada" name="Telefone">
+            </div>
+
+            <div id="nada">
+                <label id="nada">Endereço:</label>
+                <input type="text" id="nada" name="Endereço">
+            </div>
+
+            <div id="nada">
+                <label id="nada">Recado(OPICIONAL):</label>
+                <input type="text" id="nada" name="Recado">
+            </div>
+
+            <div id="nada">
+                <label id="nada">Forma de Pagamento:</label>
+                 <div id="formas">
+                    <input type="checkbox" id="nada" name="pagamento">Pix
+                </div>
+                <div id="formas">
+                    <input type="checkbox" id="nada" name="pagamento">Dinheiro
+                </div>
+                <div id="formas">
+                    <input type="checkbox" id="nada" name="pagamento">Debito
+                </div>
+                <div id="formas">
+                    <input type="checkbox" id="nada" name="pagamento">Credito
+                </div>
+            </div>
+
+            <div id="seu">
+                <button type="submit" id="seu">Enviar Dados</button>
+            </div>
+        </form>
+    </section>
+
+    <div class="container">
+        <h1 id="h1">Escolha Seus Sabores e Tipos de Casquinha</h1>
+        
+        <label for="sabor">Escolha o sabor:</label>
+        <select id="sabor" multiple>
+            <option value="Chocolate">Chocolate</option>
+            <option value="Creme">Creme</option>
+            <option value="Morango">Morango</option>
+            <option value="Flocos">Flocos</option>
+            <option value="Coco">Coco</option>
+            <option value="Avelã">Avelã</option>
+            <option value="Menta com chocolate">Menta com chocolate</option>
+            <option value="Maracuja">Maracuja</option>
+            <option value="Açai">Açai</option>
+        </select>
+
+        <label for="tipo">Escolha o tipo de casquinha:</label>
+        <select id="tipo" multiple>
+            <option value="Tradicional">Tradicional</option>
+            <option value="Waffle">Waffle</option>
+            <option value="Biscoito">Biscoito</option>
+            <option value="Chocolate">chocolate</option>
+            <option value="Cone Duplo">Cone duplo</option>
+        </select>
+
+        <button onclick="enviarPedido()">Enviar Pedido</button>
+
+        
+    </div>
+
+    <script src="script.js"></script>
+
+    <div id="ponto">
+        <h3 id="p">Pedido:</h3>
+        <div id="resultado"></div>
+    </div>
+    <div><a href="index.html" id="cont">Inicio</a></div>
+</body>
+</html>
